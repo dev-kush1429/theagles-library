@@ -1,0 +1,31 @@
+.editable-div {
+  position: relative;
+}
+
+.editable-div > button {
+  position: absolute;
+  right: 0;
+  top: -15px;
+  display: none;
+  border: none;
+  background: cyan;
+}
+
+.editable-div:hover > button {
+  display: flex;
+}
+
+.focused {
+  border: 1px solid black;
+}
+
+.editModal {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
+.tiny-editor {
+  position: absolute;
+  top: 130%;
+  right: 50%;
+}

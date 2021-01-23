@@ -1,0 +1,30 @@
+import { Story, Props, Preview, Meta } from "@storybook/addon-docs/blocks";
+import { withKnobs } from "@storybook/addon-knobs";
+
+import { BasicSlider } from "./index";
+
+<Meta title="Sliders" Component={BasicSlider} />
+
+# Basic Sliders
+
+#
+
+## Example
+
+<Preview withToobar>
+  <Story name="Usage" decorators={[withKnobs]}>
+    {BasicSlider()}
+  </Story>
+</Preview>
+
+#
+
+<Story name="Import" />
+
+```jsx
+import { BasicSlider } from "mc-components";
+```
+
+<Story name="Props" />
+
+## Props

@@ -1,0 +1,71 @@
+import { Meta, Preview, Props, Story } from "@storybook/addon-docs/blocks";
+import { withKnobs } from "@storybook/addon-knobs";
+import { VideoCard, BasicCard, PortraitVideo, InformationCard } from "./index";
+
+<Meta title="Media cards" component="VideoCard" />
+
+# Basic card
+
+#
+
+## Example
+
+<Preview withToolbar>
+  <Story name="Basic card" decorators={[withKnobs]}>
+    {BasicCard()}
+  </Story>
+</Preview>
+
+# Information card
+
+#
+
+## Example
+
+<Preview withToolbar>
+  <Story name="Information card" decorators={[withKnobs]}>
+    {InformationCard()}
+  </Story>
+</Preview>
+
+# Video card
+
+#
+
+## Example
+
+<Preview withToolbar>
+  <Story name="Video card" decorators={[withKnobs]}>
+    {VideoCard()}
+  </Story>
+</Preview>
+
+# Video card
+
+#
+
+## Example
+
+<Preview withToolbar>
+  <Story name="Portrait video card" decorators={[withKnobs]}>
+    {PortraitVideo()}
+  </Story>
+</Preview>
+
+#
+
+<Story name="Import" />
+
+# import
+
+```jsx
+import { VideoCard } from "mc-components";
+```
+
+```jsx
+import { BasicCard } from "mc-components";
+```
+
+```jsx
+import { PortraitVideo } from "mc-components";
+```

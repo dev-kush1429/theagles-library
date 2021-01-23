@@ -1,0 +1,28 @@
+import { Meta, Preview, Props, Story } from "@storybook/addon-docs/blocks";
+import { withKnobs } from "@storybook/addon-knobs";
+
+import InformationCard from "./informationCard";
+
+<Meta title="Information cards" component={InformationCard} />
+
+# Product detail
+
+#
+
+## Example
+
+<Preview>
+  <Story name="Usage" decorators={[withKnobs]}>
+    {InformationCard()}
+  </Story>
+</Preview>
+
+#
+
+<Story name="Import" />
+
+# import
+
+```jsx
+import InformationCard from "mc-components";
+```

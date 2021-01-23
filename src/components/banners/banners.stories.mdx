@@ -1,0 +1,34 @@
+import { Meta, Story, Props, Preview } from "@storybook/addon-docs/blocks";
+import { withKnobs } from "@storybook/addon-knobs";
+
+import { BasicBanner, BannerWithCard } from "./index";
+
+<Meta title="Banners" component={BasicBanner} />
+
+# Basic Banners
+
+<Preview withToolbar>
+  <Story name="Banner with card" decorators={[withKnobs]}>
+    {BannerWithCard()}
+  </Story>
+</Preview>
+
+## Banner with background image
+
+<Preview withToolbar>
+  <Story name="Basic banner" decorators={[withKnobs]}>
+    {BasicBanner()}
+  </Story>
+</Preview>
+
+## Import
+
+```jsx
+import { BannerWithCard } from "mc-components";
+```
+
+#
+
+```jsx
+import { BasicBanner } from "mc-components";
+```

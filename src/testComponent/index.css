@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+}
+
+section.test-component {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.toolBox-properties.test-component {
+  display: flex;
+  margin: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}

@@ -1,0 +1,24 @@
+import { Meta, Preview, Props, Story } from "@storybook/addon-docs/blocks";
+import { withKnobs } from "@storybook/addon-knobs";
+
+import ProductList from "./productList";
+
+<Meta title="Product List" component={ProductList} />
+
+# Product List
+
+#
+
+<Preview withToolbar>
+  <Story name="Product List" decorators={[withKnobs]}>
+    {ProductList()}
+  </Story>
+</Preview>
+
+#
+
+# import
+
+```jsx
+import ProductDetail from "mc-components";
+```

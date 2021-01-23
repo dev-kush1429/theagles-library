@@ -1,0 +1,45 @@
+import { Meta, Story, Props, Preview } from "@storybook/addon-docs/blocks";
+import { withKnobs } from "@storybook/addon-knobs";
+import { BasicForm, GridForm } from "./index";
+
+<Meta title="Forms" component={BasicForm} />
+
+# Basic form
+
+#
+
+## Example
+
+<Preview withToolbar>
+  <Story name="Basic form" decorators={[withKnobs]}>
+    {BasicForm()}
+  </Story>
+</Preview>
+
+# Grid form
+
+#
+
+## Example
+
+<Preview withToolbar>
+  <Story name="Grid form" decorators={[withKnobs]}>
+    {GridForm()}
+  </Story>
+</Preview>
+
+#
+
+<Story name="Import" />
+
+## Import
+
+```jsx
+import { GridForm } from "mc-components";
+```
+
+#
+
+```jsx
+import { BasicForm } from "mc-components";
+```

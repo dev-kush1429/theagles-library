@@ -1,0 +1,38 @@
+import { Meta, Story, Props, Preview } from "@storybook/addon-docs/blocks";
+import { withKnobs } from "@storybook/addon-knobs";
+
+import { ThreeEqualWidthColumn, FourEqualWidthColumn } from "./index";
+
+<Meta title="Layouts" component={ThreeEqualWidthColumn} />
+
+# Three equal width column
+
+## Example
+
+<Preview withToolbar>
+  <Story name="Three equal width column">{ThreeEqualWidthColumn()}</Story>
+</Preview>
+
+#
+
+# Four equal width column
+
+## Example
+
+<Preview withToolbar>
+  <Story name="Four equal width column">{FourEqualWidthColumn()}</Story>
+</Preview>
+
+#
+
+<Story name="Import" />
+
+## Import
+
+```jsx
+import { ThreeEqualWidthColumn } from "mc-components";
+```
+
+```jsx
+import { FourEqualWidthColumn } from "mc-components";
+```

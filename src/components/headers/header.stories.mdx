@@ -1,0 +1,35 @@
+import { Meta, Preview, Props, Story } from "@storybook/addon-docs/blocks";
+import { withKnobs } from "@storybook/addon-knobs";
+import { Header, SmartHeader } from "./index";
+
+<Meta title="Headers" component="Header" />
+
+# Header
+
+#
+
+## Example
+
+<Preview>
+  <Story name="Header" decorators={[withKnobs]}>
+    {Header()}
+  </Story>
+</Preview>
+
+#
+
+<Preview>
+  <Story name="Smart header" decorators={[withKnobs]}>
+    {SmartHeader()}
+  </Story>
+</Preview>
+
+#
+
+<Story name="Import" />
+
+# import
+
+```jsx
+import Header from "mc-components";
+```
