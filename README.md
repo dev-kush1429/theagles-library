@@ -1,7 +1,5 @@
 # Theagles
 
-![N|Solid](https://media-exp1.licdn.com/dms/image/C560BAQF0dZxNuRbdWQ/company-logo_200_200/0?e=2159024400&v=beta&t=2E_RuhKaaqLVE4DItEO8oThTvKRf0-pPProNyekRI5E)
-
 This project have a library of components that are intented to be used in the Theagles applications.
 
 This app can run in two mode  
